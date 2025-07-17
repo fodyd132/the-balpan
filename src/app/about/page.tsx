@@ -13,7 +13,7 @@ export default function AboutPage() {
         ]}
       />
 
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl font-semibold mb-4">브랜드 스토리</h2>
         <p className="text-gray-700 text-lg mb-4">
           더 발판은 ‘작은 디테일이 삶을 바꾼다’는 철학을 바탕으로 출발했습니다.

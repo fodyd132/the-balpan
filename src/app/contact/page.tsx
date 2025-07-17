@@ -14,7 +14,7 @@ export default function ContactPage() {
         ]}
       />
 
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl font-semibold mb-8">문의하기</h2>
 
         <ul className="space-y-6">

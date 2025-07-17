@@ -14,7 +14,7 @@ export default function AboutHistoryPage() {
         ]}
       />
 
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl font-semibold mb-4">주요 연혁</h2>
 
         <ul className="space-y-4 text-gray-700 text-lg">

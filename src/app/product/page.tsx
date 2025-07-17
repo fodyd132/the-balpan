@@ -14,7 +14,7 @@ export default function ProductPage() {
         ]}
       />
 
-      <main className="max-w-5xl mx-auto px-6 py-16">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
         <section className="grid md:grid-cols-2 gap-8 items-center mb-16">
           <div>
             <h2 className="text-2xl font-semibold mb-4">왜 더 발판인가요?</h2>
