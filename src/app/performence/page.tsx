@@ -13,7 +13,7 @@ export default function PerformancePage() {
         ]}
       />
 
-      <main className="max-w-4xl mx-auto px-6 py-16">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
         <h2 className="text-2xl font-semibold mb-8">성과</h2>
 
         <ul className="grid md:grid-cols-2 gap-6 text-gray-800 text-lg">
