@@ -8,6 +8,10 @@ export default function ContactPage() {
         title="Contact"
         subtitle="언제든지 편하게 문의하세요"
         imageUrl="/images/contact.jpg"
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Contact' }
+        ]}
       />
 
       <main className="max-w-3xl mx-auto px-6 py-16">

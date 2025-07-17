@@ -10,7 +10,7 @@ export default function ProductPage() {
         imageUrl="/images/product.jpg"
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'About Us' }
+          { label: 'Product' }
         ]}
       />
 

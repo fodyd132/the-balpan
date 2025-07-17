@@ -7,6 +7,10 @@ export default function AboutPage() {
         title="About Us"
         subtitle="더 발판을 만드는 사람들"
         imageUrl="/images/about-hero.jpg" // 원하는 이미지 경로로 교체
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'About Us' }
+        ]}
       />
 
       <main className="max-w-3xl mx-auto px-6 py-16">
