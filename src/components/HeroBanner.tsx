@@ -12,7 +12,7 @@ interface HeroBannerProps {
 
 export default function HeroBanner({ title, subtitle, imageUrl, breadcrumb }: HeroBannerProps) {
   return (
-    <div className="relative w-full h-72 md:h-96">
+    <div className="relative w-full h-64 sm:h-72 md:h-96">
       <Image
         src={imageUrl}
         alt={title}
@@ -38,8 +38,8 @@ export default function HeroBanner({ title, subtitle, imageUrl, breadcrumb }: He
       )}
 
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-        <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>
-        {subtitle && <p className="mt-2 text-lg md:text-xl">{subtitle}</p>}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">{title}</h1>
+        <p className="mt-2 text-base sm:text-lg md:text-xl">{subtitle}</p>
       </div>
     </div>
   )
