@@ -8,6 +8,10 @@ export default function ProductPage() {
         title="Product"
         subtitle="더 발판 제품을 소개합니다"
         imageUrl="/images/product.jpg"
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'About Us' }
+        ]}
       />
 
       <main className="max-w-5xl mx-auto px-6 py-16">
