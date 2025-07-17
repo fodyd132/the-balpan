@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="text-3xl font-bold mb-6">회사 소개</h1>
+      <h1 className="text-4xl font-semibold mb-8 border-b pb-4">회사 소개</h1>
 
       <p className="text-gray-700 text-lg mb-4">
         더 발판은 "작은 변화로 일상의 편안함을 만든다"는 철학을 바탕으로 시작되었습니다.
