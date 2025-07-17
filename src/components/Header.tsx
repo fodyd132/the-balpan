@@ -11,6 +11,7 @@ export default function Header() {
                 </Link>
                 <nav className="space-x-6">
                     <Link href="/about" className="text-gray-700 hover:text-black">회사 소개</Link>
+                    <Link href="/performance" className="text-gray-700 hover:text-black">회사 성과</Link>
                     <Link href="/product" className="text-gray-700 hover:text-black">제품 소개</Link>
                     <Link href="/contact" className="text-gray-700 hover:text-black">문의하기</Link>
                 </nav>
