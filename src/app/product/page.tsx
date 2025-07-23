@@ -34,7 +34,7 @@ export default function ProductPage() {
           </div>
         </section>
 
-        <section className="grid md:grid-cols-3 gap-6">
+        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="p-6 bg-gray-100 rounded-xl shadow">
             <h3 className="text-xl font-bold mb-2">인체공학 설계</h3>
             <p className="text-gray-700">
