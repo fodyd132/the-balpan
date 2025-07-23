@@ -1,3 +1,5 @@
+'use client'
+
 import HeroBanner from '@/components/HeroBanner'
 import { motion } from 'framer-motion'
 
